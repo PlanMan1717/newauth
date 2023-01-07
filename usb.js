@@ -4,7 +4,7 @@ async function doWebAuthnCreate() {
             "hi", c => c.charCodeAt(0)),
         rp: {
             name: "Duo Security",
-            id: "frykmanm.auth",
+            id: "frykmanm.xyz",
         },
         user: {
             id: Uint8Array.from(
